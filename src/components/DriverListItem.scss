@@ -3,63 +3,78 @@
   src: local("F1"), url("../fonts/Formula1-Regular.ttf") format("truetype");
 }
 
+li {
+  display: flex;
+  align-items: center;
+}
+
+ol {
+  counter-reset: number;
+  list-style-type: none;
+  li::before {
+    counter-increment: number;
+    content: counter(number) "\a0";
+    font-family: F1;
+    margin-right: 0.75em;
+    width: 5%;
+  }
+}
+
 .drivers__driver {
   display: flex;
   align-items: center;
   transition: all 0.2s;
   background-color: #e10600;
   border-radius: 30px;
-  // width: 350px;
   max-width: 350px;
+  width: 100%;
+  user-select: none;
+  margin-bottom: 0.5em;
   &:hover {
     background-color: #ff6f6f;
   }
-  user-select: none;
 }
 
-.driver__name {
-  font-family: "F1";
-  margin: 0 1em 0 1em;
+.driver {
+  &__name {
+    font-family: "F1";
+    margin: 0 1em 0 1em;
+  }
+  &__aside {
+    display: flex;
+  }
+  &__img {
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin: 0.2em;
+  }
+  &__flag {
+    position: absolute;
+    height: 15px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border: 1px solid black;
+  }
+  &__points {
+    font-family: "F1";
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0 1em 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-.driver__aside {
-  display: flex;
-}
-
-.driver__img {
-  height: 50px;
-  border-radius: 50px;
-  border: 1px solid black;
-  margin: 0.2em;
-}
-
-.driver__flag {
-  position: absolute;
-  height: 15px;
-  margin-top: 40px;
-  margin-left: 40px;
-  border: 1px solid black;
-}
-
-.driver__points {
-  font-family: "F1";
-  font-weight: bold;
-  font-size: x-large;
-  margin: 0 1em 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.points__number {
-  
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.points__label {
-  // border-top: 1px solid black;
-  font-size: xx-small;
-  font-weight: lighter;
+.points {
+  &__number {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  &__label {
+    font-size: xx-small;
+    font-weight: lighter;
+  }
 }

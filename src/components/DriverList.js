@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import axios from "axios";
 import DriverListItem from "./DriverListItem";
+import reactDom from "react-dom";
 
 export default function DriverList(props) {
   const driverListItems = props.drivers
@@ -17,5 +18,21 @@ export default function DriverList(props) {
       .then(console.log);
   }, []);
 
-  return <ol>{driverListItems}</ol>;
+  const divClass = {
+    display: 'flex',
+    border: '1px solid red',
+    borderRadius: '10px',
+    width: 'fit-content',
+    alignItems: 'center',
+  }
+
+  const olStyle = {
+    padding: '0em 1em',
+  }
+
+  return (
+  <div style={divClass}>
+    <ol style={olStyle}>{driverListItems}</ol>
+  </div>
+  );
 }

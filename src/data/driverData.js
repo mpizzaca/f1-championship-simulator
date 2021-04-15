@@ -4,7 +4,7 @@ export default {
     profile_image: "/images/drivers/hamilton_profile.png",
     constructor: "Mercedes",
     country: "United Kingdom",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/GB.svg",
     points: 25,
   },
   "Max Verstappen": {
@@ -12,7 +12,7 @@ export default {
     profile_image: "/images/drivers/verstappen_profile.png",
     constructor: "Red Bull Racing",
     country: "Netherlands",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/NL.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/NL.svg",
     points: 18,
   },
   "Valterri Bottas": {
@@ -20,7 +20,7 @@ export default {
     profile_image: "/images/drivers/bottas_profile.png",
     constructor: "Mercedes",
     country: "Finland",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/FI.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/FI.svg",
     points: 16,
   },
   "Lando Norris": {
@@ -28,7 +28,7 @@ export default {
     profile_image: "/images/drivers/norris_profile.png",
     constructor: "McLaren",
     country: "United Kingdom",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/GB.svg",
     points: 12,
   },
   "Sergio Perez": {
@@ -36,7 +36,7 @@ export default {
     profile_image: "/images/drivers/perez_profile.png",
     constructor: "Red Bull Racing",
     country: "Mexico",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/MX.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/MX.svg",
     points: 10,
   },
   "Charles Leclerc": {
@@ -44,7 +44,7 @@ export default {
     profile_image: "/images/drivers/leclerc_profile.png",
     constructor: "Ferrari",
     country: "Monaco",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/MC.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/MC.svg",
     points: 8,
   },
   "Daniel Ricciardo": {
@@ -52,7 +52,7 @@ export default {
     profile_image: "/images/drivers/ricciardo_profile.png",
     constructor: "McLaren",
     country: "Australia",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/AU.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/AU.svg",
     points: 6,
   },
   "Carlos Sainz": {
@@ -60,7 +60,7 @@ export default {
     profile_image: "/images/drivers/sainz_profile.png",
     constructor: "Ferrari",
     country: "Spain",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/ES.svg",
     points: 4,
   },
   "Yuki Tsunoda": {
@@ -68,7 +68,7 @@ export default {
     profile_image: "/images/drivers/tsunoda_profile.png",
     constructor: "AlphaTauri",
     country: "Japan",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/JP.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/JP.svg",
     points: 2,
   },
   "Lance Stroll": {
@@ -76,7 +76,7 @@ export default {
     profile_image: "/images/drivers/stroll_profile.png",
     constructor: "Aston Martin",
     country: "Canada",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/CA.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/CA.svg",
     points: 1,
   },
   "Kimi Räikkönen": {
@@ -84,7 +84,7 @@ export default {
     profile_image: "/images/drivers/raikkonen_profile.png",
     constructor: "Alfa Romeo",
     country: "Finland",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/FI.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/FI.svg",
     points: 0,
   },
   "Antonio Giovinazzi": {
@@ -92,7 +92,7 @@ export default {
     profile_image: "/images/drivers/giovinazzi_profile.png",
     constructor: "Alfa Romeo",
     country: "Italiy",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/IT.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/IT.svg",
     points: 0,
   },
   "Esteban Ocon": {
@@ -100,7 +100,7 @@ export default {
     profile_image: "/images/drivers/ocon_profile.png",
     constructor: "Alpine",
     country: "France",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/FR.svg",
     points: 0,
   },
   "George Russell": {
@@ -108,7 +108,7 @@ export default {
     profile_image: "/images/drivers/russell_profile.png",
     constructor: "Williams",
     country: "United Kingdom",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/GB.svg",
     points: 0,
   },
   "Sebastian Vettel": {
@@ -116,7 +116,7 @@ export default {
     profile_image: "/images/drivers/vettel_profile.png",
     constructor: "Aston Martin",
     country: "Germany",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/DE.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/DE.svg",
     points: 0,
   },
   "Mick Schumacher": {
@@ -124,7 +124,7 @@ export default {
     profile_image: "/images/drivers/schumacher_profile.png",
     constructor: "Haas",
     country: "Germany",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/DE.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/DE.svg",
     points: 0,
   },
   "Pierre Gasly": {
@@ -132,7 +132,7 @@ export default {
     profile_image: "/images/drivers/gasly_profile.png",
     constructor: "AlphaTauri",
     country: "France",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/FR.svg",
     points: 0,
   },
   "Nicholas Latifi": {
@@ -140,7 +140,7 @@ export default {
     profile_image: "/images/drivers/latifi_profile.png",
     constructor: "Williams",
     country: "Canada",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/CA.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/CA.svg",
     points: 0,
   },
   "Fernando Alonso": {
@@ -148,7 +148,7 @@ export default {
     profile_image: "/images/drivers/alonso_profile.png",
     constructor: "Alpine",
     country: "Spain",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/ES.svg",
     points: 0,
   },
   "Nikita Mazepin": {
@@ -156,7 +156,7 @@ export default {
     profile_image: "/images/drivers/mazepin_profile.png",
     constructor: "Haas",
     country: "Russia",
-    flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/RU.svg",
+    flag: "https://purecatamphetamine.github.io/country-flag-icons/1x1/RU.svg",
     points: 0,
   },
 };

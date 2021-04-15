@@ -11,8 +11,8 @@ const driver = {
   profile_image: "/images/drivers/verstappen_profile.png",
   constructor: "Red Bull Racing",
   constructor_color: "#0600ef",
-  points: 18
+  points: 18,
+  flag: "https://purecatamphetamine.github.io/country-flag-icons/3x2/NL.svg",
 };
-export const Normal = () => (
-  <DriverListItem key={driver.name} {...driver} />
-);
+
+export const Normal = () => <DriverListItem key={driver.name} {...driver} />;
